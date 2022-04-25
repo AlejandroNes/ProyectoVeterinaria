@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "nombre": "Alejandro Nes",
+      "mascota": "Luna",
+      "tipo": "Gata",
+      "descripcion": "Duerme Poco y solo come por las noches",
+      "id": 1
+    },
+    {
+      "nombre": "Dorys Con Quis",
+      "mascota": "Perla",
+      "tipo": "Perra",
+      "descripcion": "Come muy poco y no quiere moverse solo en las noches sale afuera",
+      "id": 2
+    },
+    {
+      "nombre": "Darlin",
+      "mascota": "Lala",
+      "tipo": "Gata",
+      "descripcion": "Necesita operación urgente ",
+      "id": 4
+    }
+  ]
+}

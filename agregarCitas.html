@@ -146,7 +146,7 @@
                                                     <label class="form-label">Nombre Dueño<span class="text-danger">*</span></label>
                                                     <div class="form-icon position-relative">
                                                         <i data-feather="user" class="fea icon-sm icons"></i>
-                                                        <input name="persona" id="persona" type="text" class="form-control ps-5" placeholder="Ej. Alejandro :">
+                                                        <input name="nombre" id="nombre" type="text" class="form-control ps-5" placeholder="Ej. Alejandro :">
                                                     </div>
                                                 </div>
                                             </div><!--end col-->
@@ -179,8 +179,11 @@
                                             </div>
                                         </div><!--end row-->
                                         <div class="row">
-                                            <div class="col-sm-12">
-                                                <input type="submit" id="submit" name="send" class="btn btn-primary" value="Agregar Cita">
+                                            <div class="col-sm-4">
+                                                <input type="submit" class="btn btn-primary" value="Agregar Cita">
+                                            </div><!--end col-->
+                                            <div class="col-sm-8 alerta">
+                                            
                                             </div><!--end col-->
                                         </div><!--end row-->
                                     </form><!--end form-->
@@ -188,6 +191,8 @@
                             </div>
                         </div><!--end col-->
                         <!-- Forms End -->
+                          
+
                         
                     </div>
                 </div><!--end container-->
@@ -267,6 +272,7 @@
         <script src="assets/js/plugins.init.js"></script>
         <script src="assets/js/app.js"></script>
         
+        <script src="./app/agregarCitas.js" type="module"></script>
     </body>
 
 </html>
